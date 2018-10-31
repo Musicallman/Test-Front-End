@@ -4,17 +4,18 @@ body {
     background-color: #f1f1f1;
     font-family: Roboto;
 }
-span
-{
+
+span {
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.429;
 }
-sup
-{
+
+sup {
     vertical-align: text-bottom;
 }
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -34,8 +35,8 @@ sup
 }
 
 .main-room__photo {
-    padding-left: 20px;
-    padding-top: 16px;
+
+    padding: 16px 0 0 20px;
     width: 287px;
     height: 265px;
     background-image: url("../img/room.jpg");
@@ -43,8 +44,8 @@ sup
     border-radius: 5px 0 0 0;
     position: relative;
 }
-.main-room__photo__collection
-{
+
+.main-room__photo__collection {
     position: absolute;
     bottom: 18px;
     display: flex;
@@ -54,19 +55,19 @@ sup
     font-size: 14px;
     left: 235px;
 }
-.main-room__photo__collection p
-{
+
+.main-room__photo__collection p {
     margin-right: 3px;
 }
-.main-room__photo__mask
-{
+
+.main-room__photo__mask {
     position: absolute;
     width: 276px;
     border-radius: 5px;
     height: 271px;
     top: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .main-room__photo__big-txt {
@@ -97,24 +98,24 @@ sup
     top: 5px;
     right: 28px;
 }
-.main-room__info
-{
+
+.main-room__info {
     padding: 20px 0 0 20px;
     height: 251px;
     width: 76%;
     margin-bottom: 0;
     border-bottom: 1px solid #e1e1e1;
 }
-.main-room__info h1
-{
+
+.main-room__info h1 {
     width: fit-content;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.main-room__info__more-btn, .other-propositions__more-btn
-{
-    background-color: rgba(0,0,0,.0);
+
+.main-room__info__more-btn, .other-propositions__more-btn {
+    background-color: rgba(0, 0, 0, .0);
     border: none;
     color: #3587e0;
     font-size: 16px;
@@ -124,8 +125,8 @@ sup
     bottom: 15px;
     cursor: pointer;
 }
-.main-room__info__settings, .main-room__info__facilities
-{
+
+.main-room__info__settings, .main-room__info__facilities {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -133,29 +134,28 @@ sup
     margin-bottom: 10px;
     width: fit-content;
 }
-.main-room__info__facilities
-{
+
+.main-room__info__facilities {
     border-bottom: none;
 }
-.main-room__info__settings ul, .main-room__info__facilities ul
-{
+
+.main-room__info__settings ul, .main-room__info__facilities ul {
     height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
 .main-room__info__facilities__column-right,
-.main-room__info__settings__column-right
-{
+.main-room__info__settings__column-right {
     margin-left: 65px;
 }
 
 .main-room__info__settings__column-left li,
 .main-room__info__settings__column-right li,
 .main-room__info__facilities__column-left li,
-.main-room__info__facilities__column-right li
-{
+.main-room__info__facilities__column-right li {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -163,46 +163,42 @@ sup
     width: 145px;
 }
 
-.main-room__info__settings__column__adults img
-{
-    margin-left: 4px;
-    margin-right: 3px;
+.main-room__info__settings__column__adults img {
+    margin: 0 3px 0 4px;
 }
+
 .main-room__info__settings__column-left li span,
 .main-room__info__settings__column-right li span,
 .main-room__info__facilities__column-left li span,
-.main-room__info__facilities__column-right li span
-{
+.main-room__info__facilities__column-right li span {
     margin-left: 13px;
 }
 
-.content__addition-info
-{
+.content__addition-info {
     margin: 15px;
     font-family: 'Raleway', sans-serif;
     width: fit-content;
     font-size: 12.5px;
 }
 
-.other-proposition
-{
+.other-proposition {
     margin: 0 15px 10px 15px;
-    border:1px solid #ededed;
+    border: 1px solid #ededed;
     border-radius: 5px;
     width: calc(100% - 30px);
     padding: 15px 0;
     display: flex;
     position: relative;
 }
-.other-proposition-emphasized
-{
+
+.other-proposition-emphasized {
     background-color: #eaf3fc;
     border: none;
     border-bottom: 3px solid #3587e0;
 }
-.other-proposition__left-column li, .other-proposition__right-column li
-{
-   display: flex;
+
+.other-proposition__left-column li, .other-proposition__right-column li {
+    display: flex;
     flex-direction: row;
     align-items: center;
     font-family: 'Raleway', sans-serif;
@@ -210,61 +206,57 @@ sup
     font-size: 15px;
 }
 
-.other-proposition__left-column li img, .other-proposition__right-column li img
-{
-   margin: 0 10px;
+.other-proposition__left-column li img, .other-proposition__right-column li img {
+    margin: 0 10px;
 }
-.row-list
-{
+
+.row-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 45px;
 }
-.row-list img
-{
+
+.row-list img {
     margin-left: 10px;
     position: relative;
     bottom: 6px;
 }
 
-li.list
-{
+li.list {
 
     list-style-type: disc;
     display: list-item;
     position: relative;
 }
-.other-proposition__right-column
-{
+
+.other-proposition__right-column {
     margin-top: 3px;
 }
-.other-proposition__left-column__free-cancellation
-{
+
+.other-proposition__left-column__free-cancellation {
     color: #42be56;
 }
-.other-proposition__right-column li
-{
-    margin-bottom: 15px;
-    margin-left: 70px;
+
+.other-proposition__right-column li {
+    margin: 0 0 15px 70px;
 }
-.other-proposition__price
-{
+
+.other-proposition__price {
     position: absolute;
     right: 270px;
 }
-.other-proposition__price h2
-{
+
+.other-proposition__price h2 {
     font-size: 33px;
     margin-bottom: 10px;
 }
-.other-proposition__price p
-{
+
+.other-proposition__price p {
     font-size: 13px;
 }
 
-.other-proposition__booking-btn
-{
+.other-proposition__booking-btn {
     right: 15px;
     position: absolute;
     width: 155px;
@@ -279,37 +271,34 @@ li.list
     outline: none;
 }
 
-.other-proposition__booking-btn:hover
-{
-    background: linear-gradient(top,#f4da71,#cca509);
-    background: -webkit-linear-gradient(top,#f4da71,#cca509);
-    background: -o-linear-gradient(top,#f4da718,#cca509);
-    background: -moz-linear-gradient(top,#f4da71,#cca509);
-    background: -ms-linear-gradient(top,#f4da71,#cca509);
+.other-proposition__booking-btn:hover {
+    background: linear-gradient(top, #f4da71, #cca509);
+    background: -webkit-linear-gradient(top, #f4da71, #cca509);
+    background: -o-linear-gradient(top, #f4da718, #cca509);
+    background: -moz-linear-gradient(top, #f4da71, #cca509);
+    background: -ms-linear-gradient(top, #f4da71, #cca509);
     color: #fff;
     text-decoration: none;
 
 }
-.other-proposition__price__best
-{
+
+.other-proposition__price__best {
     color: #42be56;
 }
-h2.other-proposition__price__last-price
-{
+
+h2.other-proposition__price__last-price {
     font-size: 21px;
     color: #bcbcbc;
     text-decoration: line-through;
 }
 
-.other-propositions
-{
+.other-propositions {
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin: 30px 0 30px 0;
 }
-.other-propositions__more-btn
-{
-position: inherit;
+
+.other-propositions__more-btn {
+    position: inherit;
 
 }
 
@@ -330,10 +319,9 @@ position: inherit;
     font-size: 13px;
     color: #ffffff;
 }
-.other-proposition__swimming-pool img
-{
-    margin-left: 12px;
-    margin-right: 10px;
+
+.other-proposition__swimming-pool img {
+    margin: 0 12px 0 12px;
 }
 
 
